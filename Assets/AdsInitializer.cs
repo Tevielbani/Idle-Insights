@@ -5,8 +5,8 @@ using UnityEngine.Advertisements;
 
 public class AdsInitializer : MonoBehaviour, IUnityAdsInitializationListener
 {
-    [SerializeField] string _androidGameId;
-    [SerializeField] string _iOSGameId;
+    [SerializeField] string _androidGameId = "4884125";
+    [SerializeField] string _iOSGameId = "4884124";
     [SerializeField] bool _testMode = true;
     private string _gameId;
     private void Awake()
@@ -16,9 +16,7 @@ public class AdsInitializer : MonoBehaviour, IUnityAdsInitializationListener
 
     public void InitializeAds()
     {
-        _gameId = (Application.platform == RuntimePlatform.IPhonePlayer)
-            ? _iOSGameId
-            : _androidGameId;
+        _gameId = (Application.platform == RuntimePlatform.IPhonePlayer) ? _iOSGameId : _androidGameId;
         Advertisement.Initialize(_gameId, _testMode, this);
     }
 
