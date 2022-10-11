@@ -51,41 +51,41 @@ public class ShopManager : MonoBehaviour
     {
         if (shop == false)
         {
-            shopGameObject.transform.position = new Vector2(0, 0);
-            clicker.transform.position = new Vector2(0, 0);
-        }
-        if (shop == true)
-        {
             shopGameObject.transform.position = new Vector2(540, 960);
             clicker.transform.position = new Vector2(540, 960);
         }
-        if (shopOK == false)
+        if (shop == true)
         {
-            shopOKGameObject.transform.position = new Vector2(0, 0);
+            shopGameObject.transform.position = new Vector2(0, 0);
             clicker.transform.position = new Vector2(0, 0);
         }
-        if (shopOK == true)
+        if (shopOK == false)
         {
             shopOKGameObject.transform.position = new Vector2(540, 960);
             clicker.transform.position = new Vector2(540, 960);
         }
-        if (shopEK == false)
+        if (shopOK == true)
         {
-            shopEKGameObject.transform.position = new Vector2(0, 0);
+            shopOKGameObject.transform.position = new Vector2(0, 0);
             clicker.transform.position = new Vector2(0, 0);
         }
-        if (shopEK == true)
+        if (shopEK == false)
         {
             shopEKGameObject.transform.position = new Vector2(540, 960);
             clicker.transform.position = new Vector2(540, 960);
         }
+        if (shopEK == true)
+        {
+            shopEKGameObject.transform.position = new Vector2(0, 0);
+            clicker.transform.position = new Vector2(0, 0);
+        }
         if (clickerBool == true)
         {
-            clicker.transform.position = new Vector2(540, 960);
+            clicker.transform.position = new Vector2(0, 0);
         }
         if (clickerBool == false)
         {
-            clicker.transform.position = new Vector2(0, 0);
+            clicker.transform.position = new Vector2(540, 960);
         }
     }
 }

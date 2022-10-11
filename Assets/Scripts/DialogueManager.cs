@@ -14,7 +14,13 @@ public class DialogueManager : MonoBehaviour
     {
         sentences = new Queue<string>();
     }
-
+    public void Update()
+    {
+        if (StoryManager.dialogueCount == 1)
+        {
+            
+        }
+    }
     public void StartDialogue(Dialogue dialogue)
     {
         nameText.text = dialogue.name;

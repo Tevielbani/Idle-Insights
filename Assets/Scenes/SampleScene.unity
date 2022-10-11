@@ -6301,8 +6301,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 686066374}
   m_HandleRect: {fileID: 686066373}
   m_Direction: 2
-  m_Value: 1.0000008
-  m_Size: 0.45183498
+  m_Value: 1.000001
+  m_Size: 0.451835
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -7660,7 +7660,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   endItAll: 0
-  tickCooldown: 0
 --- !u!4 &421347477
 Transform:
   m_ObjectHideFlags: 0
@@ -7921,7 +7920,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 540, y: 960, z: -500}
+  m_LocalPosition: {x: 0, y: 0, z: -500}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8969,20 +8968,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffe631a8a53662e41ae0ed0a00e6acb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trigger1: 0
-  trigger2: 0
-  trigger3: 0
-  trigger4: 0
-  trigger5: 0
-  trigger6: 0
-  trigger7: 0
-  trigger8: 0
-  trigger9: 0
-  trigger10: 0
-  trigger11: 0
-  trigger12: 0
-  trigger13: 0
-  trigger14: 0
+  dialogueCountTracker: 0
 --- !u!4 &626772897
 Transform:
   m_ObjectHideFlags: 0
@@ -8991,7 +8977,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 626772895}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 632.3217, y: 971.12823, z: -67.47538}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -16114,7 +16100,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 540, y: 960}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1080, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &844520217
@@ -19869,7 +19855,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 301.49078}
+  m_AnchoredPosition: {x: 0, y: 428.27435}
   m_SizeDelta: {x: 0, y: 550}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1218920625
@@ -20307,7 +20293,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 301.49078}
+  m_AnchoredPosition: {x: 0, y: 428.27435}
   m_SizeDelta: {x: 0, y: 550}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1278593543
@@ -26245,8 +26231,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1024551941}
   m_HandleRect: {fileID: 1024551940}
   m_Direction: 2
-  m_Value: -0.00000030366658
-  m_Size: 0.45183498
+  m_Value: -0.42052257
+  m_Size: 0
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -32590,7 +32576,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1966204519}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: 0, y: 0.3, z: 0}
+  m_LocalPosition: {x: -9.46, y: 0.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 110669364}
@@ -32613,20 +32599,20 @@ MonoBehaviour:
   dialogue:
     name: You
     sentences:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - Lorem
+    - Ipsum
+    - Dolor
+    - Sit
+    - Amet
+    - Testing
+    - Each
+    - And
+    - Every
+    - Line
+    - Possible
+    - Is
+    - Fucking
+    - Annoying
 --- !u!64 &1966204522
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32702,8 +32688,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc348624a2c6f964aa24aed23ee303ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: {fileID: 0}
-  dialogueText: {fileID: 0}
+  nameText: {fileID: 110669365}
+  dialogueText: {fileID: 913311043}
 --- !u!1 &1966326357
 GameObject:
   m_ObjectHideFlags: 0
@@ -33633,8 +33619,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2115977962}
   m_HandleRect: {fileID: 2115977961}
   m_Direction: 2
-  m_Value: -0.00000030366658
-  m_Size: 0.45183498
+  m_Value: -0.42052257
+  m_Size: 0
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

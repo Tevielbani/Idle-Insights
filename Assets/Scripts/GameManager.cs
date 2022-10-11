@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
     public static float multiplier;
     public static bool passiveKnowledge = false;
     public bool endItAll = false;
-    public float tickCooldown;
+    public static float tickCooldown;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,7 +28,6 @@ public class GameManager : MonoBehaviour
         knowledge = PlayerPrefs.GetFloat("knowledge", 0);
         occultKnowledge = PlayerPrefs.GetFloat("occulticKnowledge", 0);
         eldritchKnowledge = PlayerPrefs.GetFloat("eldritchKnowledge", 0);
-
         if (oMultiplier > 1)
         {
             occultic = true;
